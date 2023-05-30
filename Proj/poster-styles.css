@@ -1,0 +1,228 @@
+body {
+  font-family: "Impact Regular";
+  text-transform: uppercase;
+  letter-spacing: 0.0001rem;
+  line-height: 1;
+  /* background-color: rgb(199,20,61); */
+  background-color: rgb(255,254,254);
+  align-items: center;
+}
+
+/* CSS styles for the navigation bar */
+ul.navbar {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  z-index: 100;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-right: 150px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  overflow: hidden;
+  background-color: rgb(255,254,254);
+  align-items: center;
+  border-bottom: 1px solid #a7a9ac;
+}
+
+.left_side_naav{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.right_side_nav{
+  padding-top: 11px;
+}
+
+ul.navbar li {
+  float: left;
+}
+
+ul.navbar li a {
+  display: block;
+  padding: 0;
+  color: rgb(166,25,46);
+  text-align: center;
+  padding: 9px 10px;
+  text-decoration: none;
+}
+
+ul.navbar li img {
+  display: block;
+  height: 45px;
+}
+
+ul.navbar li.left_side {
+  float: left;
+}
+
+ul.navbar li.right_side {
+  float: right;
+}
+
+ul.navbar li a:hover {
+  color: rgb(255,254,254);
+  background-color: rgb(166,25,46);
+}
+
+ul.navbar li a.bulletin {
+  display: block;
+  padding: 0;
+  color: rgb(166,25,46);
+  text-align: center;
+  padding-right:10px;
+  padding-left: 3px;
+  padding-top: 16px;
+  padding-bottom: 0px;
+  text-decoration: none;
+  font-size: 29px;
+}
+
+ul.navbar li a.bulletin:hover {
+  color: rgb(255,254,254);
+  background-color: rgb(166,25,46);
+}
+
+.search-container {
+  display: block;
+  float: right;
+  margin-right: 16px;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.search-container input[type=text] {
+  padding: 6px;
+  padding-top: 11px;
+  padding-bottom: 5px;
+  padding-right: 150px;
+  border-radius: 5px;
+  border: 1px solid #a7a9ac;
+  border-color: #e6e7e8;
+  font-size: 14px;
+  outline: 1px solid #a7a9ac;
+}
+
+.search-container button {
+  position: relative;
+  background-color: transparent;
+  color: rgb(166,25,46);
+  text-align: center;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.search-container button:hover {
+  color: rgb(255,254,254);
+  background-color: rgb(166,25,46);
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* CSS styles for the posts */
+.poster-grid{
+  max-width: 90%;
+  margin-top: 100px;
+  margin-left: 63px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
+  align-items: center;
+}
+
+.poster-preview{
+  position: relative;
+}
+
+.thumbnail-row{
+  margin-top: 47px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: fit-content;
+  height: fit-content;
+  margin-bottom: 12px;
+  position: relative;
+}
+
+.thumbnail {
+  width: 100%;
+  cursor: pointer;
+}
+
+.poster-title {
+  margin-top: 0;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 12px;
+}
+
+.poster-author{
+  font-size: 16px;
+  color: black;
+}
+
+.seperator{
+  font-size: 16px;
+  color: rgb(96,96,96);
+  margin-bottom: 4px;
+}
+
+.poster-time {
+  font-size: 12px;
+  color: rgb(96,96,96);
+  margin-bottom: 4px;
+}
+
+.poster-info-grid{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  padding: 3px;
+  padding-bottom: 0;
+  background-color: #fffefe;
+}
+
+.channel-link {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.profile-picture{
+  width: 40px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* CSS styles for the text */
+.bulletin-info{
+  margin-top: 45px;
+  align-self: baseline;
+}
+
+.bulletin-header{
+  font-size: 30px;
+  color: rgb(43,43,43);
+}
+
+.bulletin-paragraph{
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: none;
+  color: rgb(96,96,96);
+}
+
+.qrcode{
+  opacity: 0.9;
+  border: 1.5px solid rgb(96,96,96);
+  border-radius: 10px;
+}

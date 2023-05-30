@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bullet.SFU</title>
+    <link rel="stylesheet" href="index-styles.css">
+  </head>
+  <body>
+    <!-- Navigation bar -->
+    <ul class="navbar">
+      <div class="left_side_nav">
+        <li class="left_side"><img src="SFU.png" alt="SFU Logo"></li>
+        <li class="left_side"><a class="bulletin" href="#bulletin">Bulletin</a></li>
+      </div>
+      <div class="right_side_nav">
+        <li class="right_side"><a href="#post">Post</a></li>
+        <li class="right_side"><a href="#members">Members</a></li>
+        <li class="right_side"><a href="categories.html">Categories</a></li>
+        <li class="right_side"><a href="index.html">View</a></li>
+        <li class="right_side"><a href="#myaccount">Account</a></li>
+      </div>
+      <li class="right_side">
+        <div class="search-container">
+          <input type="text" placeholder="Search...">
+          <button type="search_btn">&#x1F50E;&#xFE0E;</button>
+        </div>
+      </li>
+    </ul>
+
+    <!-- Content of the page -->
+    <div class="poster-grid">
+      <div class="poster-preview">
+        <div class="thumbnail-row">
+          <a href="poster.html" >
+            <img class="thumbnail" src="Poster1.png">
+          </a>
+        </div>
+        <div class="poster-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel1.jpeg">
+          </div>
+          <div class="poster-info">
+            <div class="poster-author-div">
+              <l class="poster-author">
+                <a class="poster-link" >SFU Dance</a>
+              </l>
+              <!-- <l class="seperator">
+                <a>&#183;</a>
+              </l> -->
+            </div>
+            <div class="poster-time-div">
+              <l class="poster-time">
+                6 months ago
+              </l>
+            </div>
+          </div>  
+          <div class="favourite-btn-space">
+            <button class="favourite-btn" onclick="changeSymbol(this)">☆</button>
+            <!-- ☆ ✭-->
+          </div>
+        </div>
+      </div>
+
+      <div class="poster-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="Poster2.png">
+        </div>
+        <div class="poster-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel1.jpeg">
+          </div>
+          <div class="poster-info">
+            <div class="poster-author-div">
+              <l class="poster-author">
+                <a class="poster-link" >SFU Dance</a>
+              </l>
+            </div>
+            <div class="poster-time-div">
+              <l class="poster-time">
+                6 months ago
+              </l>
+            </div>
+          </div>  
+          <div class="favourite-btn-space">
+            <button class="favourite-btn" onclick="changeSymbol(this)">☆</button>
+            <!-- ☆ ✭-->
+          </div>
+        </div>
+      </div>
+
+      <div class="poster-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="Poster3.png">
+        </div>
+        <div class="poster-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel1.jpeg">
+          </div>
+          <div class="poster-info">
+            <div class="poster-author-div">
+              <l class="poster-author">
+                <a class="poster-link" >SFU Dance</a>
+              </l>
+            </div>
+            <div class="poster-time-div">
+              <l class="poster-time">
+                6 months ago
+              </l>
+            </div>
+          </div>  
+          <div class="favourite-btn-space">
+            <button class="favourite-btn" onclick="changeSymbol(this)">☆</button>
+            <!-- ☆ ✭-->
+          </div>
+        </div>
+      </div>
+
+      <div class="poster-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="Poster4.png">
+        </div>
+        <div class="poster-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel1.jpeg">
+          </div>
+          <div class="poster-info">
+            <div class="poster-author-div">
+              <l class="poster-author">
+                <a class="poster-link" >SFU Dance</a>
+              </l>
+            </div>
+            <div class="poster-time-div">
+              <l class="poster-time">
+                6 months ago
+              </l>
+            </div>
+          </div>  
+          <div class="favourite-btn-space">
+            <button class="favourite-btn" onclick="changeSymbol(this)">☆</button>
+            <!-- ☆ ✭-->
+          </div>
+        </div>
+      </div>
+
+      <div class="poster-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="Poster5.png">
+        </div>
+        <div class="poster-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel1.jpeg">
+          </div>
+          <div class="poster-info">
+            <div class="poster-author-div">
+              <l class="poster-author">
+                <a class="poster-link" >SFU Dance</a>
+              </l>
+            </div>
+            <div class="poster-time-div">
+              <l class="poster-time">
+                6 months ago
+              </l>
+            </div>
+          </div>  
+          <div class="favourite-btn-space">
+            <button class="favourite-btn" onclick="changeSymbol(this)">☆</button>
+            <!-- ☆ ✭-->
+          </div>
+        </div>
+      </div>
+
+      <div class="poster-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="Poster6.png">
+        </div>
+        <div class="poster-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel1.jpeg">
+          </div>
+          <div class="poster-info">
+            <div class="poster-author-div">
+              <l class="poster-author">
+                <a class="poster-link" >SFU Dance</a>
+              </l>
+            </div>
+            <div class="poster-time-div">
+              <l class="poster-time">
+                6 months ago
+              </l>
+            </div>
+          </div>  
+          <div class="favourite-btn-space">
+            <button class="favourite-btn" onclick="changeSymbol(this)">☆</button>
+            <!-- ☆ ✭-->
+          </div>
+        </div>
+      </div>
+
+      <div class="poster-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="Poster7.png">
+        </div>
+        <div class="poster-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel1.jpeg">
+          </div>
+          <div class="poster-info">
+            <div class="poster-author-div">
+              <l class="poster-author">
+                <a class="poster-link" >SFU Dance</a>
+              </l>
+            </div>
+            <div class="poster-time-div">
+              <l class="poster-time">
+                6 months ago
+              </l>
+            </div>
+          </div>  
+          <div class="favourite-btn-space">
+            <button class="favourite-btn" onclick="changeSymbol(this)">☆</button>
+            <!-- ☆ ✭-->
+          </div>
+        </div>
+      </div>
+
+      <div class="poster-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="Poster8.png">
+        </div>
+        <div class="poster-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel1.jpeg">
+          </div>
+          <div class="poster-info">
+            <div class="poster-author-div">
+              <l class="poster-author">
+                <a class="poster-link" >SFU Dance</a>
+              </l>
+            </div>
+            <div class="poster-time-div">
+              <l class="poster-time">
+                6 months ago
+              </l>
+            </div>
+          </div>  
+          <div class="favourite-btn-space">
+            <button class="favourite-btn" onclick="changeSymbol(this)">☆</button>
+            <!-- ☆ ✭-->
+          </div>
+        </div>
+      </div>
+
+      <div class="poster-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="Poster9.png">
+        </div>
+        <div class="poster-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel1.jpeg">
+          </div>
+          <div class="poster-info">
+            <div class="poster-author-div">
+              <l class="poster-author">
+                <a class="poster-link" >SFU Dance</a>
+              </l>
+            </div>
+            <div class="poster-time-div">
+              <l class="poster-time">
+                6 months ago
+              </l>
+            </div>
+          </div>  
+          <div class="favourite-btn-space">
+            <button class="favourite-btn" onclick="changeSymbol(this)">☆</button>
+            <!-- ☆ ✭-->
+          </div>
+        </div>
+      </div>
+
+      <div class="poster-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="Poster10.png">
+        </div>
+        <div class="poster-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel1.jpeg">
+          </div>
+          <div class="poster-info">
+            <div class="poster-author-div">
+              <l class="poster-author">
+                <a class="poster-link" >SFU Dance</a>
+              </l>
+            </div>
+            <div class="poster-time-div">
+              <l class="poster-time">
+                6 months ago
+              </l>
+            </div>
+          </div>  
+          <div class="favourite-btn-space">
+            <button class="favourite-btn" onclick="changeSymbol(this)">☆</button>
+            <!-- ☆ ✭-->
+          </div>
+        </div>
+      </div>
+
+      <div class="poster-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="Poster11.png">
+        </div>
+        <div class="poster-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel1.jpeg">
+          </div>
+          <div class="poster-info">
+            <div class="poster-author-div">
+              <l class="poster-author">
+                <a class="poster-link" >SFU Dance</a>
+              </l>
+            </div>
+            <div class="poster-time-div">
+              <l class="poster-time">
+                6 months ago
+              </l>
+            </div>
+          </div>  
+          <div class="favourite-btn-space">
+            <button class="favourite-btn" onclick="changeSymbol(this)">☆</button>
+            <!-- ☆ ✭-->
+          </div>
+        </div>
+      </div>
+
+      <div class="poster-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="Poster12.png">
+        </div>
+        <div class="poster-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel1.jpeg">
+          </div>
+          <div class="poster-info">
+            <div class="poster-author-div">
+              <l class="poster-author">
+                <a class="poster-link" >SFU Dance</a>
+              </l>
+            </div>
+            <div class="poster-time-div">
+              <l class="poster-time">
+                6 months ago
+              </l>
+            </div>
+          </div>  
+          <div class="favourite-btn-space">
+            <button class="favourite-btn" onclick="changeSymbol(this)">☆</button>
+            <!-- ☆ ✭-->
+          </div>
+        </div>
+      </div>
+
+      <div class="poster-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="Poster13.png">
+        </div>
+        <div class="poster-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel1.jpeg">
+          </div>
+          <div class="poster-info">
+            <div class="poster-author-div">
+              <l class="poster-author">
+                <a class="poster-link" >SFU Dance</a>
+              </l>
+            </div>
+            <div class="poster-time-div">
+              <l class="poster-time">
+                6 months ago
+              </l>
+            </div>
+          </div>  
+          <div class="favourite-btn-space">
+            <button class="favourite-btn" onclick="changeSymbol(this)">☆</button>
+            <!-- ☆ ✭-->
+          </div>
+        </div>
+      </div>
+
+      <div class="poster-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="Poster14.png">
+        </div>
+        <div class="poster-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel1.jpeg">
+          </div>
+          <div class="poster-info">
+            <div class="poster-author-div">
+              <l class="poster-author">
+                <a class="poster-link" >SFU Dance</a>
+              </l>
+            </div>
+            <div class="poster-time-div">
+              <l class="poster-time">
+                6 months ago
+              </l>
+            </div>
+          </div>  
+          <div class="favourite-btn-space">
+            <button class="favourite-btn" onclick="changeSymbol(this)">☆</button>
+            <!-- ☆ ✭-->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <h1>Welcome to My Website</h1>
+    <p>This is a sample page with a navigation bar.</p> -->
+  </body>
+  <script src="scripts.js"></script>
+</html>
